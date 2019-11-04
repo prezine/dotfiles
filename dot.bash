@@ -15,6 +15,13 @@ apt-get update
 
 apt-get install node
 
+apt-get install git 
+
+apt-get install software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+apt-get install python3.6
+apt-get install python3
+
 ## Makes adding SSH keys to servers easier.
 apt-get install ssh-copy-id
 
